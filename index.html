@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
+    <!--Configração de caracteres é, ão-->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Meta examples</title>
+
+    <!--sem essa meta, navegadores móveis aplicam uma viewport padrão (geralmente ~980px) e então escalam a página, 
+    o que deixa o layout “encolhido” em celulares-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--é um dos elementos mais importantes para SEO e usabilidade-->
+    <title>Minha Pagina</title>
 
     <meta name="author" content="Fabricio Netto">
-    <meta name="description" content="Exemplo de pagina html.">
 
+    <!--motores de busca frequentemente usam esse texto como o “snippet” exibido nos resultados de busca;
+     portanto afeta CTR (taxa de clique).-->
+    <meta name="description" content="Exemplo de pagina html.">
+    <!--Usar URL absoluta (https://…) 
+    e garantir que a imagem esteja acessível para crawlers (não bloqueada por robots.txt).-->
     <meta property="og:image" content="https://developer.mozilla.org/mdn-social-share.png">
-    <meta property="og:description" content="This is an example page to demonstrate usage of metadata on web pages.">
+    <meta property="og:description" content="Minga pagina HTML">
     <meta property="og:title" content="Metadata; The HTML &lt;head&gt;, on MDN">
 
-    <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
   </head>
   <body>
-    <h1>Meta examples</h1>
-
+    <h1>Minha primeira pagina</h1>
     <p>Japanese example: ご飯が熱い。</p>
   </body>
 </html>
