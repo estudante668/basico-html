@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <!--Configração de caracteres é, ão-->
-    <meta charset="utf-8">
-
-    <!--sem essa meta, navegadores móveis aplicam uma viewport padrão (geralmente ~980px) e então escalam a página, 
-    o que deixa o layout “encolhido” em celulares-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--é um dos elementos mais importantes para SEO e usabilidade-->
-    <title>Minha Pagina</title>
-
-    <meta name="author" content="Fabricio Netto">
-
-    <!--motores de busca frequentemente usam esse texto como o “snippet” exibido nos resultados de busca;
-     portanto afeta CTR (taxa de clique).-->
-    <meta name="description" content="Exemplo de pagina html.">
-    <!--Usar URL absoluta (https://…) 
-    e garantir que a imagem esteja acessível para crawlers (não bloqueada por robots.txt).-->
-    <meta property="og:image" content="https://developer.mozilla.org/mdn-social-share.png">
-    <meta property="og:description" content="Minga pagina HTML">
-    <meta property="og:title" content="Metadata; The HTML &lt;head&gt;, on MDN">
-
-    <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
+      <!--Configração de caracteres-->
+    <meta charset="utf-8">  
+      <!--é um dos elementos mais importantes para SEO e usabilidade-->
+      <title>Meu Site</title>
+      <!--sem essa meta, navegadores móveis aplicam uma viewport padrão (geralmente ~980px) e então escalam a página, 
+      o que deixa o layout “encolhido” em celulares-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--motores de busca frequentemente usam esse texto como o “snippet” exibido nos resultados de busca;
+      portanto afeta CTR (taxa de clique).-->
+        <meta name="description" content="Meu site">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
-    <h1>Minha primeira pagina</h1>
-    <p>Japanese example: ご飯が熱い。</p>
+    <h1>O furo esmagador</h1>
+      <p>Por Chris Mills</p>
+      <h2>Capítulo 1: A noite escura</h2>
+      <p>
+        Era uma noite escura. Em algum lugar, uma coruja piou. A chuva caiu no chão
+        ...
+      </p>
+      <h2>Capítulo 2: O eterno silêncio</h2>
+      <p>
+        Nosso protagonista não podia ver mais que um relance da figura sombria ...
+      </p>
+      <h3>O espectro fala</h3>
+      <p>
+        Várias horas se passaram, quando, de repente, o espectro ficou em pé e
+        exclamou: "Por favor, tenha piedade da minha alma!"
+      </p>
   </body>
 </html>
